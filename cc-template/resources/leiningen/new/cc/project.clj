@@ -9,7 +9,7 @@
   :target-path "target/%s"
   :source-paths ["src/main/clojure"]
   :java-source-paths ["src/main/java"]
-  :test-paths ["test/main/clojure" "test/main/java"]
+  :test-paths ["test/main/java" "test/main/clojure"]
   :resource-paths ["src/main/resources" "test/main/resources"]
   :aot :all
   :main {{name}}.core

@@ -1,3 +1,5 @@
+(ns {{name}}.core)
+
 (def project-name :{{name}})
 
 (defn -main

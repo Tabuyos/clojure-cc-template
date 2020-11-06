@@ -7,12 +7,12 @@
                  ["TsingHua" {:url "https://mirrors.tuna.tsinghua.edu.cn/clojars"}]]
   :dependencies [[org.clojure/clojure "1.10.1"]]
   :target-dir "target"
-  :library-path ["target/dependency"]
+  :library-path "target/dependency"
   :source-paths ["src/main/clojure"]
   :java-source-paths ["src/main/java"]
   :test-paths ["test/main/clojure" "test/main/java"]
-  :resources-path ["src/main/resources"]
-  :dev-resources-path ["test/main/resources"]
+  :resources-path "src/main/resources"
+  :dev-resources-path "test/main/resources"
   :aot :all
   :main {{name}}.core
   :repl-options {:init-ns {{name}}.core})
